@@ -222,7 +222,7 @@ async def main():
     total_assemblies = len(assemblies)
     print("\nвсего возможных сборок:", total_assemblies)
     if total_assemblies == 0:
-        print("нет совместимых сборок (проверьте поля Category.soket).")
+        print("нет совместимых сборок")
     else:
         cheapest = assemblies[0]
         print("\n самая дешевая сборка ")
